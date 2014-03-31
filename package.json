@@ -1,0 +1,21 @@
+{
+  "name": "kamu",
+  "version": "0.0.1",
+  "description": "kamu is passport-aku",
+  "main": "./lib/passport-aku",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "kamu",
+    "aku",
+    "openid",
+    "blankon"
+  ],
+  "author": "Dhi Aurrahman <diorahman@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pkginfo": "^0.3.0",
+    "passport-openid": "^0.3.1"
+  }
+}

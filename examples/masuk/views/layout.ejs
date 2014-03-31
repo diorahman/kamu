@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aku dan Kamu</title>
+  </head>
+  <body>
+    <% if (!user) { %>
+      <p>
+      <a href="/">Beranda</a> | 
+      <a href="/login">Masuk</a>
+      </p>
+    <% } else { %>
+      <p>
+      <a href="/">Beranda</a> | 
+      <a href="/account">Akun</a> | 
+      <a href="/logout">Keluar</a>
+      </p>
+    <% } %>
+    <%- body %>
+  </body>
+</html>
